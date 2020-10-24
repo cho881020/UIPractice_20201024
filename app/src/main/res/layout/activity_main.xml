@@ -52,4 +52,9 @@
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"/>
+
 </LinearLayout>
