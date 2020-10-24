@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
-    android:background="@drawable/tje_logo"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -64,6 +63,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         android:layout_marginTop="5dp"
         android:text="추천인 닉네임" />
 
@@ -72,6 +72,7 @@
         android:layout_height="wrap_content"
         android:hint="검색 기능 예시"
         android:singleLine="true"
+        android:visibility="gone"
         android:imeOptions="actionSearch"/>
 
     <RadioGroup
@@ -92,6 +93,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개 안함" />
 
 
