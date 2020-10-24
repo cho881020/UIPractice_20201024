@@ -29,4 +29,27 @@
         android:hint="8자리 이상으로 해주세요."
         android:inputType="numberPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="사용할 닉네임 입력"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천인 닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="검색 기능 예시"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
+
 </LinearLayout>
